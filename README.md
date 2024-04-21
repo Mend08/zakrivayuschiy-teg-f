@@ -1,1 +1,1 @@
-https://github.com/Mend08/zakrivayuschiy-teg-f.git
+https://github.com/Mend08/zakrivayuschiy-teg-f/
