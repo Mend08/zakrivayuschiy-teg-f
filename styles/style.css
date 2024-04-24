@@ -326,6 +326,10 @@
   line-height: 21px;
 }
 
+.card__text {
+  line-height: inherit;
+}
+
 .card__icon-button {
   padding: 0;
   width: 39px;
