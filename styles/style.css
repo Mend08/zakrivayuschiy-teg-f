@@ -33,8 +33,8 @@
     ),
     repeating-linear-gradient(
       180deg,
-      var(--background-color-start),
-      var(--background-color-end) 2px,
+      var(--background-color),
+      var(--background-color) 2px,
       transparent 2px,
       transparent 4px
     ),
@@ -114,19 +114,6 @@
   fill: var(--text-color);
   position: relative;
   z-index: 1;
-}
-
-.like-icon .contour {
-  fill: var(--text-color);
-}
-
-.like-icon .sparks {
-  opacity: 0;
-  fill: var(--heart-color);
-}
-
-.like-icon.is-liked .contour {
-  fill: var(--heart-color);
 }
 
 .button {
@@ -213,6 +200,7 @@
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-transform: uppercase;
   text-decoration: none;
+  outline: none;
 }
 
 .header__title {
@@ -335,6 +323,7 @@
   display: flex;
   flex-direction: column;
   gap: 26px;
+  line-height: 21px;
 }
 
 .card__icon-button {
@@ -346,6 +335,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  padding-top: 2px;
 }
 
 .card__icon-button:focus {
@@ -366,7 +356,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 12px;
+  gap: 5px;
 }
 
 @media (width <= 375px) {
