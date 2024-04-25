@@ -23,7 +23,6 @@
   min-block-size: 100dvb;
   font-variation-settings: var(--text-font-weight);
   color: var(--text-color);
-  background-attachment: fixed;
   background: repeating-linear-gradient(
       90deg,
       var(--background-color),
@@ -44,6 +43,7 @@
       var(--background-color-end)
     );
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .grayscale {
@@ -339,7 +339,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  padding-top: 2px;
+  align-items: center;
 }
 
 .card__icon-button:focus {

@@ -29,32 +29,36 @@
 
 .like-icon:hover .main-body {
   fill: var(--text-color);
-  transition: 0.3s 0.05s;
+  transition: 0.3s 0.05s linear;
 }
 
 .like-icon:hover .core {
   fill: var(--text-color);
   transition-delay: 0s;
+  transition-timing-function: linear;
 }
 
 .like-icon:active .main-body {
   fill: var(--heart-color);
-  transition: 0.3s 0.05s;
+  transition: 0.3s 0.05s linear;
 }
 
 .like-icon:active .core {
   fill: var(--heart-color);
   transition-delay: 0s;
+  transition-timing-function: linear;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--heart-color);
   transition: 0.3s 0.05s;
+  transition-timing-function: linear;
 }
 
 .like-icon.is-liked .core {
   fill: var(--heart-color);
   transition-delay: 0s;
+  transition-timing-function: linear;
 }
 
 .theme-menu__button:disabled::before {
@@ -71,17 +75,20 @@
 
 .like-icon .contour {
   fill: var(--text-color);
-  transition: 0.3s 0.05s;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
 }
 
 .like-icon .sparks {
   opacity: 0;
   fill: var(--heart-color);
+  transition-timing-function: linear;
 }
 
 .like-icon.is-liked .contour {
   fill: var(--heart-color);
-  transition: 0.3s 0.05s;
+  transition: 0.3s 0.06s;
+  transition-timing-function: linear;
 }
 
 @keyframes arrow-animation {
